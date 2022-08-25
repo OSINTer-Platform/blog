@@ -7,7 +7,7 @@ description: The homepage for the OSINTer blog
 ### Hi There! Welcome to the blog for OSINTer
 So you ended up on the homepage for the OSINTer project! Maybe someone sent you a link to this page, maybe you came looking for it yourself or maybe you just simply stumbled upon this by accident, but whatever brought you here, if you're curious about what in the world this is, keep reading and I will do my best to explain it.
 
-OSINTer is - in a nutshell - a digital platform that has been developed for the last one and a half year with the ultimate goal of strengthening cybersecurity. You can read much more about what specifically this means on the [*About The Project*]({{ url_for('post', name='about-the-project') }}) page and about the people behind this on the [*About Us*]({{ url_for('post', name='about-us') }}) page, but these pages can be quite lengthy and filled with technical jargon - which is probably not what you're here for - so for now I'm going to keep it relatively short.
+OSINTer is - in a nutshell - a digital platform that has been developed for the last one and a half year with the ultimate goal of strengthening cybersecurity. You can read much more about what specifically this means on the [*About The Project*]({{ url_for('post', name='about-the-project') }}) page, but that page can be quite lengthy and filled with technical jargon - which is probably not what you're here for - so for now I'm going to keep it relatively short.
 
 <hr />
 ![OSINTer logo]({{ url_for('image', fileName='logo.png') }})
