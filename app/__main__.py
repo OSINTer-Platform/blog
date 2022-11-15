@@ -56,6 +56,10 @@ def pygmentsCss():
 def image(fileName):
     return send_from_directory("../static/images", fileName)
 
+@app.route("/favicon/<string:fileName>")
+def favicon(fileName):
+    return send_from_directory("../static/favicon", fileName)
+
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
