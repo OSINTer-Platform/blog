@@ -5,17 +5,31 @@ section.article-list {
 	margin-bottom: 5rem;
 }
 
-article > time {
-	font-size: 0.8rem;
-	font-style: italic;
-	color: rgba(0, 0, 0);
-	font-weight: 300;
-}
-
 section.article-list > a {
 	text-decoration: none;
 }
 
-section.article-list > a > article > h2 {
+article > div.post-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+article > div.post-title > time {
+	font-size: 0.8rem;
+	font-style: italic;
+	font-weight: 300;
+
+	color: rgba(0, 0, 0);
+
+	height: min-content;
+	margin-bottom: 1rem;
+}
+
+section.article-list > a > article > div.post-title > h2 {
 	text-decoration: underline;
+}
+
+section.article-list > a > article > p.description {
+	font-weight: 300;
 }
