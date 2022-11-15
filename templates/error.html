@@ -1,4 +1,5 @@
 {% extends "pageBase.html" %}
+{% block metatitle %}Error {{errorCode}}!{% endblock %}
 {% block head %}
 	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/error.css') }}">
 	{{ super() }}

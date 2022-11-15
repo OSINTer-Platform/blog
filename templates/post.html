@@ -1,4 +1,7 @@
 {% extends "pageBase.html" %}
+
+{% block metatitle %}{{ post.title }}{% endblock %}
+
 {% block head %}
 	<link rel="stylesheet" href="{{ url_for('pygmentsCss') }}">
 	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/post.css') }}">
