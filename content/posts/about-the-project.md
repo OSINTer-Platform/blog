@@ -18,6 +18,8 @@ Secondly, the content from the threat intelligence sources is archived and retri
 <hr>
 
 ## The current state of OSINTer
+![The architecture of OSINTer](https://bertmad.dk/div/osinter/fdca/images/OSINTer-arch.png)
+
 *OSINTer is a framework that is under constant and rapid development, and while that is great for the end-user, please keep in mind that, that might also mean that some of the following information is slightly inaccurate.*
 
 ### The technical breakdown
