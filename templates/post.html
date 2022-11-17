@@ -2,6 +2,19 @@
 
 {% block metatitle %}{{ post.title }}{% endblock %}
 
+{% block metatags %}
+	<meta property="og:title" content="{{ post.title }}" />
+	<meta property="og:description" content="{{ post.description }}" />
+	<meta property="og:image" content="{{ post.image if post.image else 'https://bertmad.dk/div/osinter/logo.png'}}" />
+
+	<meta property="og:url" content="https://osinter.dk/blog{{ request.path }}" />
+	<meta property="og:locale" content="en_US" />
+
+	<meta property="og:type" content="article" />
+	<meta property="article:published_time" content="{{ post.date }}">
+
+{% endblock %}
+
 {% block head %}
 	<link rel="stylesheet" href="{{ url_for('pygmentsCss') }}">
 	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/post.css') }}">

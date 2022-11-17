@@ -2,6 +2,7 @@ title: About The Project
 date: 2022-11-16
 author: Bertmad
 description: A short description of OSINTer as a project
+image: https://bertmad.dk/div/osinter/fdca/images/OSINTer-arch.png
 
 ## What problem does OSINTer attempt to solve?
 

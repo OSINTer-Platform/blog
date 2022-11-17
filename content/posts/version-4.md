@@ -2,6 +2,7 @@ title: Version 4.0 just released!
 date: 2022-11-17
 author: Bertmad
 description: A look into the past and future of the project
+image: https://bertmad.dk/div/osinter/fdca/images/Timeline.png
 
 Version of 4.0 of OSINTer just dropped, and while it on the surface doesn't bring along any major changes, it does bring a lot of structural changes to how the frontend retrieves and handles data. Not only does this optimize some parts significantly, but it also opens the door to further development in fields like machine learning, which will be discussed in greater detail in the following sections.
 

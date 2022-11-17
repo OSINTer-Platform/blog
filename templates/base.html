@@ -15,6 +15,15 @@
 		<meta name="msapplication-config" content="{{ url_for('favicon', fileName='browserconfig.xml') }}">
 		<meta name="theme-color" content="#ffffff">
 
+		{% block metatags %}
+			<meta property="og:title" content="OSINTer blog" />
+			<meta property="og:description" content="A technical blog describing the development of the OSINTer framework" />
+			<meta property="og:image" content="https://bertmad.dk/div/osinter/logo.png" />
+
+			<meta property="og:url" content="https://osinter.dk/blog/" />
+			<meta property="og:locale" content="en_US" />
+		{% endblock %}
+
 
 		{% block head %}
 		{% endblock %}
