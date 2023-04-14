@@ -1,8 +1,10 @@
+---
 title: Version 4.0 just released!
 date: 2022-11-17
 author: Bertmad
 description: A look into the past and future of the project
 image: https://bertmad.dk/div/osinter/fdca/images/Timeline.png
+---
 
 Version of 4.0 of OSINTer just dropped, and while it on the surface doesn't bring along any major changes, it does bring a lot of structural changes to how the frontend retrieves and handles data. Not only does this optimize some parts significantly, but it also opens the door to further development in fields like machine learning, which will be discussed in greater detail in the following sections.
 
@@ -18,7 +20,7 @@ The development of OSINTer has so far been a wild ride, and the platform has so 
 - **OSINTer 3.0:** A modernization of the GUI for OSINTer which moved away from server-side rendering by using a single SPA.
 - **OSINTer 4.0:** A lot of minor (but breaking) changes, like improved code quality, a simpler API schema and the possibility for integration with ML pipelines.
 
-<hr>
+- - -
 
 ## The future of OSINTer
 
@@ -33,7 +35,7 @@ As these topics of future development are rather complex, and none of them fall 
 ### The legal direction for OSINTer moving forward
 *Please mind that while the following section is a topic that has been thoroughly researched by me and large parts of it fact-checked by a lawyer, I personally am a developer and not a lawyer. Therefore, the following contents do not constitute legal advice, are not intended to be a substitute for legal advice and should not by relied upon as such. This section is merely meant to give an insight into the process behind the shifting licensing of the project, and for that reason, it is strongly recommended to seek legal advice or other professional advice in relation to any particular matters the reader, or the organisation which the reader represents, may have.*
 
-As described in the [*About The Project post*]({{ url_for('post', name='about-the-project') }}), OSINTer has through the time been under a few different licenses for a variety of reasons, but the current state is that the project is unfortunately unlicensed (and therefore all rights are reserved). We would prefer to change that, and as such, going forward the project will in all likelihood be put under a license which is non-commercial in nature.
+As described in the [*About The Project post*](https://osinter.dk/blog/about-the-project), OSINTer has through the time been under a few different licenses for a variety of reasons, but the current state is that the project is unfortunately unlicensed (and therefore all rights are reserved). We would prefer to change that, and as such, going forward the project will in all likelihood be put under a license which is non-commercial in nature.
 
 In the optimal world we would like to put the project under a strong copy-left license which would actually qualify as open-source, but due the fact that OSINTer having evolved into more of a finished product in of itself, in contrast to many libraries and actual frameworks out there, we believe it would be near impossible to sustain the development of the project under that kind of license. Therefore, were currently looking into licensing the new version 4.0 of OSINTer under version 1.1 of the [MariaDB Buisness Source License](https://mariadb.com/bsl11/) (BSL for short).
 

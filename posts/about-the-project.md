@@ -1,8 +1,10 @@
+---
 title: About The Project
 date: 2022-11-16
 author: Bertmad
 description: A short description of OSINTer as a project
 image: https://bertmad.dk/div/osinter/fdca/images/OSINTer-arch.png
+---
 
 ## What problem does OSINTer attempt to solve?
 
@@ -16,7 +18,7 @@ Firstly, to combat the time-consuming task of identifying relevant threat intell
 
 Secondly, the content from the threat intelligence sources is archived and retrievable for the user, through a download functionality in OSINTer, which allows for download Markdown files containing this content, and formattet in a consisten fashion. These files, when imported into any markdown editor (preferably Obsidian), allows the user to analyze on all or parts of the collected information. Obsidian has tools to easily detect correlations between the information, providing a much-needed overview of the collected information.
 
-<hr>
+- - -
 
 ## The current state of OSINTer
 ![The architecture of OSINTer](https://bertmad.dk/div/osinter/fdca/images/OSINTer-arch.png)
@@ -33,7 +35,7 @@ OSINTer has over the span of it's one and a half year of development evolved int
 - **API:** To make all of the information stored by OSINTer easily available in a secure and scaleable manner, a simple REST API written in the FastAPI framework for Python is provided and deployed with the project. This not only provides a layer of abstraction upon the OSINTer internals, but also allows for user authentication using the Elasticsearch DB for user management, the Argon2 hashing algorithm for storing sensitive information (passwords and emails) and JWT in HTTP-only and secure cookies with the same-site attribute set to strict. This API is also what is used by the frontend to retrieve data from OSINTer.
 - **Frontend:** The frontend for OSINTer is a simple SPA written using Svelte, SCSS and plain HTML, which simplifies the workflow of the developer and allows OSINTer to ship nothing but HTML, CSS and old-fashioned Javascript to the client.
 
-<hr>
+- - -
 
 ### The legal status
 *Please mind that while the following section is a topic that has been thoroughly researched by me and large parts of it fact-checked by a lawyer, I personally am a developer and not a lawyer. Therefore, the following contents do not constitute legal advice, are not intended to be a substitute for legal advice and should not by relied upon as such. This section is merely meant to give an insight into the process behind the shifting licensing of the project, and for that reason, it is strongly recommended to seek legal advice or other professional advice in relation to any particular matters the reader, or the organisation which the reader represents, may have.*
