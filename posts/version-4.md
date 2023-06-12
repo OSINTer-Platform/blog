@@ -3,13 +3,13 @@ title: Version 4.0 just released!
 date: 2022-11-17
 author: Bertmad
 description: A look into the past and future of the project
-image: https://bertmad.dk/div/osinter/fdca/images/Timeline.png
+image: /blog-images/timeline-4.png
 ---
 
 Version of 4.0 of OSINTer just dropped, and while it on the surface doesn't bring along any major changes, it does bring a lot of structural changes to how the frontend retrieves and handles data. Not only does this optimize some parts significantly, but it also opens the door to further development in fields like machine learning, which will be discussed in greater detail in the following sections.
 
 ## The history of OSINTer
-![A timeline of the development of OSINTer](https://bertmad.dk/div/osinter/fdca/images/Timeline.png)
+![A timeline of the development of OSINTer to version 4.0](/blog-images/timeline-4.png)
 *While the following section will describe my thoughts on and the strategy for the future development of OSINTer, it may be subject to change, as new requirements and feature requests are added to the framework and the reader should therefore keep in mind that until a specific feature is implemented and released as a part of the framework, there's currently no guarantees for what future releases of OSINTer might contain.*
 
 The development of OSINTer has so far been a wild ride, and the platform has so far moved through a PoC and 4 following major versions. These versions brought along the following changes:
@@ -50,6 +50,6 @@ What we proposed specifically is two changes to the fundamental concepts of how 
 
 The second one is to instead of having articles being the main data-object, create a new data-object that would be manually instantiated and would contain the contain the information related to specific incidents, and then be linked to all articles concerning that specific incident. This would not only create a central place to collect intelligence, avoiding big excel sheets and complicated shared documents, but also potentially allow for monetization of OSINTer, by selling access to this manually collected information. Furthermore, this approach would also allow for representing incidents and sources depicting these incidents on one big timeline, giving an overview of what is happening within cyberspace in a way not really seen before.
 
-![Using incident-based dataobjects](https://bertmad.dk/div/osinter/fdca/images/Future.gif)
+![Using incident-based dataobjects](/blog-images/ml-future.gif)
 
 Now, this is something that would require quite a commitment from a company thats used to working with CTI. Not only would I need continuous input on how and what specific features are relevant along for the CTI personnel, but this approach would also require a fair bit of manual work from the CTI personnel at that company to collect and input the needed information for this to be of any value. We do believe that this is more than worth it however, as we believe that this rather novel approach to commercializing a platform like OSINTer might bring a large change in how we collect, organize and share threat intelligence. It is not something that will just be developed overnight, as the functionality needed is rather complex, but it is still absolutely possible to pull of and should this turn out to be something a CTI related company is willing to comit to, it would likely be possible to implement in 6-12 months.

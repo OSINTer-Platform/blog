@@ -3,7 +3,7 @@ title: About The Project
 date: 2022-11-16
 author: Bertmad
 description: A short description of OSINTer as a project
-image: https://bertmad.dk/div/osinter/fdca/images/OSINTer-arch.png
+image: /blog-images/osinter-5-arch.png
 ---
 
 ## What problem does OSINTer attempt to solve?
@@ -21,7 +21,7 @@ Secondly, the content from the threat intelligence sources is archived and retri
 - - -
 
 ## The current state of OSINTer
-![The architecture of OSINTer](https://bertmad.dk/div/osinter/fdca/images/OSINTer-arch.png)
+![The architecture of OSINTer](/blog-images/osinter-5-arch.png)
 
 *OSINTer is a framework that is under constant and rapid development, and while that is great for the end-user, please keep in mind that, that might also mean that some of the following information is slightly inaccurate.*
 
