@@ -1,9 +1,9 @@
 ---
 title: About The Project
-date: 2022-11-16
+date: 2023-01-13
 author: Bertmad
 description: A short description of OSINTer as a project
-image: /blog-images/osinter-5-arch.png
+image: /blog-images/progress-to-5.png
 ---
 
 ## What problem does OSINTer attempt to solve?
