@@ -14,7 +14,7 @@ Popular to contray belief, this would prove to be more complex to implement than
 
 The result of all of this hard work, is the shiny new "Dashboard" feature in OSINTer.
 
-A quote from David on this feature: "We have wanted to broaden the user base of OSINTer to include CISO's and other more management focused roles. We know that these types of user will have less time to spend keeping up to date by reading all of the new articles coming into OSINTer. So instead we needed to find a way to give trending information that summarises the articles in a graphical way. The result is nothing short of amazing. When Bertram showed me the "Dashboard" feature he had developed, I pretty much went weak at the knees with excitement!"
+A quote from David on this feature: *"We have wanted to broaden the user base of OSINTer to include CISO's and other more management focused roles. We know that these types of user will have less time to spend keeping up to date by reading all of the new articles coming into OSINTer. So instead we needed to find a way to give trending information that summarises the articles in a graphical way. The result is nothing short of amazing. When Bertram showed me the "Dashboard" feature he had developed, I pretty much went weak at the knees with excitement!"*
 
 ## The Dashboard hath cometh
 
