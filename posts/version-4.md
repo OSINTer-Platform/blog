@@ -9,8 +9,9 @@ image: /blog-images/timeline-4.png
 Version of 4.0 of OSINTer just dropped, and while it on the surface doesn't bring along any major changes, it does bring a lot of structural changes to how the frontend retrieves and handles data. Not only does this optimize some parts significantly, but it also opens the door to further development in fields like machine learning, which will be discussed in greater detail in the following sections.
 
 ## The history of OSINTer
+
 ![A timeline of the development of OSINTer to version 4.0](/blog-images/timeline-4.png)
-*While the following section will describe my thoughts on and the strategy for the future development of OSINTer, it may be subject to change, as new requirements and feature requests are added to the framework and the reader should therefore keep in mind that until a specific feature is implemented and released as a part of the framework, there's currently no guarantees for what future releases of OSINTer might contain.*
+_While the following section will describe my thoughts on and the strategy for the future development of OSINTer, it may be subject to change, as new requirements and feature requests are added to the framework and the reader should therefore keep in mind that until a specific feature is implemented and released as a part of the framework, there's currently no guarantees for what future releases of OSINTer might contain._
 
 The development of OSINTer has so far been a wild ride, and the platform has so far moved through a PoC and 4 following major versions. These versions brought along the following changes:
 
@@ -20,7 +21,7 @@ The development of OSINTer has so far been a wild ride, and the platform has so 
 - **OSINTer 3.0:** A modernization of the GUI for OSINTer which moved away from server-side rendering by using a single SPA.
 - **OSINTer 4.0:** A lot of minor (but breaking) changes, like improved code quality, a simpler API schema and the possibility for integration with ML pipelines.
 
-- - -
+---
 
 ## The future of OSINTer
 
@@ -33,15 +34,17 @@ Now, as mentioned earlier, this newest version of OSINTer brings along some stru
 As these topics of future development are rather complex, and none of them fall completly within my area of expertise, they are also one of the reasons that I'm currently looking into finding a source of funding for the project. While all of them have shown great promise with regards to at some point getting them to a production ready state, it would have a tremendous positive on the project if there were funds available for allocation to pulling in external talent for these tasks. With all of that said though, they're not the only changes planed for OSINTer.
 
 ### The legal direction for OSINTer moving forward
-*Please mind that while the following section is a topic that has been thoroughly researched by me and large parts of it fact-checked by a lawyer, I personally am a developer and not a lawyer. Therefore, the following contents do not constitute legal advice, are not intended to be a substitute for legal advice and should not by relied upon as such. This section is merely meant to give an insight into the process behind the shifting licensing of the project, and for that reason, it is strongly recommended to seek legal advice or other professional advice in relation to any particular matters the reader, or the organisation which the reader represents, may have.*
 
-As described in the [*About The Project post*](/blog/about-the-project), OSINTer has through the time been under a few different licenses for a variety of reasons, but the current state is that the project is unfortunately unlicensed (and therefore all rights are reserved). We would prefer to change that, and as such, going forward the project will in all likelihood be put under a license which is non-commercial in nature.
+_Please mind that while the following section is a topic that has been thoroughly researched by me and large parts of it fact-checked by a lawyer, I personally am a developer and not a lawyer. Therefore, the following contents do not constitute legal advice, are not intended to be a substitute for legal advice and should not by relied upon as such. This section is merely meant to give an insight into the process behind the shifting licensing of the project, and for that reason, it is strongly recommended to seek legal advice or other professional advice in relation to any particular matters the reader, or the organisation which the reader represents, may have._
+
+As described in the [_About The Project post_](/blog/about-the-project), OSINTer has through the time been under a few different licenses for a variety of reasons, but the current state is that the project is unfortunately unlicensed (and therefore all rights are reserved). We would prefer to change that, and as such, going forward the project will in all likelihood be put under a license which is non-commercial in nature.
 
 In the optimal world we would like to put the project under a strong copy-left license which would actually qualify as open-source, but due the fact that OSINTer having evolved into more of a finished product in of itself, in contrast to many libraries and actual frameworks out there, we believe it would be near impossible to sustain the development of the project under that kind of license. Therefore, were currently looking into licensing the new version 4.0 of OSINTer under version 1.1 of the [MariaDB Buisness Source License](https://mariadb.com/bsl11/) (BSL for short).
 
 BSL is an interresting license for a project like OSINTer for two reasons. First of, instead of prohibiting commercial activity, it simply prohibits use in a production enviroment which oftentimes means that it has the same limitations as a non-commercial license, but with a little more flexibility when it comes to internal testing. Secondly, after 4 years from the release of a specific version under the BSL license, that version will move from the BSL license to an open-source and GPL compatible license of choice from the developer (which in this case will be AGPL v3). This essentially means that buying a commercial license for a software product dual-licensed under the BSL will result in getting to use the software in production while it's still relevant and competitive, but old and outdated versions of that software will also be available for open-source development in a production enviroment by the community.
 
 ## The big picture: Building the next generation of CTI tools
+
 Now what we have discussed so far is the concrete roadmap that the development of OSINTer will take in the comming months, but in the long run, we have also planed something which could have the potential to completly change how we work with and handle CTI.
 
 The case at it stands today is that OSINTer is a tool that is really only designed to be used internally in companies, and while it is absolutely possible to allow access to an OSINTer instance for anyone, it really wouldn't make too much sense as it is tool designed specifically for CTI experts. Our proposal aims to change that, by changing OSINTer from a "read only" platform, to a platform where the users would be able to not only get the relevant information from, but also input intelligence collected from other sources and manually correlate different articles. This would transform OSINTer from a sophisticated news feed to the one-stop platform for collecting and distributing cybersecurity news and threat intelligence, allowing CTI personnel to not only work together, organize information and communicate with each other internally but also allowing potential clients direct access to the information.

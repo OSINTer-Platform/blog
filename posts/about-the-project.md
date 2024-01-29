@@ -18,14 +18,16 @@ Firstly, to combat the time-consuming task of identifying relevant threat intell
 
 Secondly, the content from the threat intelligence sources is archived and retrievable for the user, through a download functionality in OSINTer, which allows for download Markdown files containing this content, and formattet in a consisten fashion. These files, when imported into any markdown editor (preferably Obsidian), allows the user to analyze on all or parts of the collected information. Obsidian has tools to easily detect correlations between the information, providing a much-needed overview of the collected information.
 
-- - -
+---
 
 ## The current state of OSINTer
+
 ![The architecture of OSINTer](/blog-images/osinter-5-arch.png)
 
-*OSINTer is a framework that is under constant and rapid development, and while that is great for the end-user, please keep in mind that, that might also mean that some of the following information is slightly inaccurate.*
+_OSINTer is a framework that is under constant and rapid development, and while that is great for the end-user, please keep in mind that, that might also mean that some of the following information is slightly inaccurate._
 
 ### The technical breakdown
+
 OSINTer has over the span of it's one and a half year of development evolved into a mamoth of a framework which spans nearly every part of the tech-stack. The following list breaks this down into the 6 different layers composing OSINTer, going from the very backend with topics like deployment and database in mind, to the very frontend used to serve the information to the user in manageable and easily accessible manner:
 
 - **Deployment:** For the process of preparing the host and deploying OSINTer (a process which is unfortunately far from trivial) Ansible is utilized. Ansible has been the framework of choice for deploying OSINTer since version 1.0, as it's wide support and reliability has made it an industry standard.
@@ -35,10 +37,11 @@ OSINTer has over the span of it's one and a half year of development evolved int
 - **API:** To make all of the information stored by OSINTer easily available in a secure and scaleable manner, a simple REST API written in the FastAPI framework for Python is provided and deployed with the project. This not only provides a layer of abstraction upon the OSINTer internals, but also allows for user authentication using CouchDB for user management, the Argon2 hashing algorithm for storing sensitive information (passwords and emails) and JWT in HTTP-only and secure cookies with the same-site attribute set to strict. This API is also what is used by the frontend to retrieve data from OSINTer.
 - **Frontend:** The frontend for OSINTer is a transitional MPA written using SvelteKit, Tailwind and plain HTML, which simplifies the workflow of the developer and allows OSINTer to ship nothing but HTML, CSS and old-fashioned Javascript to the client.
 
-- - -
+---
 
 ### The legal status
-*Please mind that while the following section is a topic that has been thoroughly researched by me and large parts of it fact-checked by a lawyer, I personally am a developer and not a lawyer. Therefore, the following contents do not constitute legal advice, are not intended to be a substitute for legal advice and should not by relied upon as such. This section is merely meant to give an insight into the process behind the shifting licensing of the project, and for that reason, it is strongly recommended to seek legal advice or other professional advice in relation to any particular matters the reader, or the organisation which the reader represents, may have.*
+
+_Please mind that while the following section is a topic that has been thoroughly researched by me and large parts of it fact-checked by a lawyer, I personally am a developer and not a lawyer. Therefore, the following contents do not constitute legal advice, are not intended to be a substitute for legal advice and should not by relied upon as such. This section is merely meant to give an insight into the process behind the shifting licensing of the project, and for that reason, it is strongly recommended to seek legal advice or other professional advice in relation to any particular matters the reader, or the organisation which the reader represents, may have._
 
 Due to the complicated nature of IP rights and the accompanying legislation, the legal state of software projects are something that the owner of the IP rights for a given project should be attentive of. This is especially true when it comes to open-source projects, as the source-available aspect of these often can result in unintended consequences for the developer, the user or possibly both if not handled with care, which is the reason for the rather complicated history of licensing for OSINTer.
 

@@ -8,6 +8,7 @@ description: Getting OSINTer production-ready
 After more than half a year of development, version 5.0 has finally passed the last development and testing phases, and is - at the time of writing - being released. If you, over the last year, has gotten used to the v4.0 interface you will find that although many of the core principles have stayed, the visual profile and design has gotten a complete overhaul along with a modernization of many core parts of OSINTer. This is done in an effort to ensure that the framework is truly production-ready, which means that we have been working hard to update and rework much of the OSINTer internals so that they're built by and kept up to high standards.
 
 ## The technical changes
+
 ![An overview of the version 5.0 architechture](/blog-images/osinter-5-arch.png)
 Version 5.0 for OSINTer has brought along changes to the following areas:
 
@@ -18,6 +19,7 @@ Version 5.0 for OSINTer has brought along changes to the following areas:
 These changes have not only enabled OSINTer to scale in a true production-ready manner, but the more robust and flexible frontend do also enable us (the core team behind OSINTer) to utilize and implement a lot of new and exciting technologies to further simplify and automating the task of collecting and analyzing intelligence.
 
 ## Looking forward
+
 We did already discuss much of the future for OSINTer [when version 4.0 released](/blog/version-4), and while much of that (like the unfortunate situation surrounding the licensing) is unchanged, getting version 5.0 of the roadmap and into the real world has given space for drawing up concrete plans for many of the much of the roadmap proposed in the v4.0 post. As 5.0 has more or less addressed the concerns raised there about the visual design and profile, version 6.0 will mostly focus on how we can use ML to augment and condense data using the following techniques:
 
 - **Clustering:** Techniques like the Uniform Manifold Approximation and Projection are used for dimension reduction of data, and in conjunction with data-clustering algorithms they might prove useful to group related content.
