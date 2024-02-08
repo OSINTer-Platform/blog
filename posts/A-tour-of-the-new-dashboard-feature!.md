@@ -7,8 +7,7 @@ description: A post to show off the new exciting dashboad feature!
 
 ## A quick tour of the dashboard!
 
-image: /blog-images/dashboard-jan24.png
-
+![Dashboard](/blog-images/dashboard-jan24.png)
 
 As we have previously posted, the dashboard has been a feature that Bertram and David have been working on together for the last few years. Bertram did most of the heavy lifting with the development work, with David providing the vision and knowledge of the industry to ensure the right data was included.
 
